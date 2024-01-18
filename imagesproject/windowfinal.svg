@@ -1,0 +1,8 @@
+<svg width="474" height="220" viewBox="0 0 474 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.5" y="1.5" width="471" height="217" rx="1.5" fill="#ECECEC" stroke="black" stroke-width="3"/>
+<rect x="1.5" y="1.5" width="471" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
+<line x1="418.738" y1="13.2035" x2="449.738" y2="43.2035" stroke="black" stroke-width="5"/>
+<line y1="-2.5" x2="43.1393" y2="-2.5" transform="matrix(-0.718602 0.695421 0.695421 0.718602 451 15)" stroke="black" stroke-width="5"/>
+<line y1="-2.5" x2="43.1393" y2="-2.5" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 315.139 42)" stroke="black" stroke-width="5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M380 14H361.2V16.2H372.8H377.8V21.2V32.8H380V14ZM356.2 14V16.2H354H349V21.2V40V45H354H372.8H377.8V40V37.8H380H385V32.8V14V9H380H361.2H356.2V14ZM373.3 20.7H353.5V40.5H373.3V20.7Z" fill="black"/>
+</svg>

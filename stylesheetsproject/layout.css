@@ -1,0 +1,924 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #BEBCFD;
+    width: 1440px;
+}
+/*Секция с первым экраном*/
+.firstscreen {
+    height: 1024px;
+    width: 100%;
+    background-color:#BEBCFD;
+}
+.researchblock {
+    width: 1309px;
+    height: 560px;
+    margin: 202px auto 262px;
+    background-image: url(../imagesproject/researchblock.svg);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.cursor {
+    position: absolute;
+    top: 257px;
+    left: 882px;
+    width: 64px;
+    height: 93px;
+    background-image: url(../imagesproject/cursor.svg);
+}
+.lens {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;  
+    margin-left: 75px;
+    padding-top: 20px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+.cross {
+    padding-left: 150px;
+    padding-top: 65px;
+}
+.micro {
+    padding-left: 90px;
+    padding: 47px;
+}
+.text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 96px;
+    position: relative;
+}
+
+.text h1::before {
+    content: '';
+    width: 2px;
+    height: 77px;
+    background-color: #000;
+    position: absolute;
+    top: 10px;
+    right: 145px;
+}
+
+.text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+.windowblock {
+    width: 487px;
+    height: 260px;
+    top: 678px;
+    left: 818px;
+    background-image: url(../imagesproject/windowblock.svg);
+    position: absolute;
+}
+.windowblock p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    margin: 88px 53px 38px 106px;
+    line-height: 52px;
+    position: absolute;
+}
+
+/* Секция с вводной информацией о шрифте */
+.introinf {
+    width: 100%;
+    height: 1024px;
+    background-color: white;
+    position: relative;
+}
+.base {
+    display: flex;
+    margin: 64px 60px 149px 80px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.searchline {
+    width: 773px;
+    height: 99px;
+    background-image: url(../imagesproject/searchline.svg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.searchline img {
+    margin-left: 37px;
+}
+.searchline p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-left: 47px;
+}
+.windowblock2 {
+    width: 991px;
+    height: 644px;
+    background-image: url(../imagesproject/windowblock2.svg);
+    margin-top: 67px;
+    position: relative;
+}
+.windowblock2 h1 {
+    position: absolute;
+    top: 148px;
+    left: 108px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 128px;
+} 
+.windowblock2 h2 {
+    position: absolute;
+    top: 294px;
+    left: 116px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    width: 706px;
+    line-height: 45px;
+}
+.buttons {
+    display: flex;
+    position: absolute;
+    top: 445px;
+    left: 116px;
+}
+.button1 {
+    width: 189px;
+    height: 54px;
+    background-image: url(../imagesproject/button.svg);
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: relative;
+}
+.button1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 15px;
+    left: 77px;
+}
+.button2 {
+    width: 189px;
+    height: 54px;
+    background-image: url(../imagesproject/button.svg);
+    margin-left: 56px;
+    position: relative;
+}
+.button2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 15px;
+    left: 44px;
+}
+.mrcursor img { 
+    margin-top: 335px;
+    margin-left: 8px;
+} 
+.bubble1 {
+    background-image: url(../imagesproject/bubble1.svg);
+    width: 396px;
+    height: 285px; 
+    position: absolute;
+    top: 675px;
+    left: 806px;
+}
+.bubble1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin: 118px 16px 67px 27px;
+    line-height: 32px;
+    position: absolute;
+}
+
+/* Секция с начертаниями */
+.secondscreen {
+    width: 1440px;
+    height: 1024px;
+    background-color: white;
+    background-image: url(../imagesproject/weightback.svg);
+    position: relative;
+}
+.tab {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    width: 119px;
+    position: absolute;
+    top: 19px;
+    left: 814px;
+}
+.fontsize img {
+    position: absolute;
+    top: 175px;
+    left: 735px;
+}
+.fontsize p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    top: 158px;
+    left: 736px;
+    position: absolute;
+}
+.fontweight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 124px;
+}
+.weight {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 140px;
+}
+
+div > .light,
+.regular,
+.semibold,
+.bold,
+.extrabold {
+    margin-top: 254px;
+    position: absolute;
+    width: 914px;
+    height: 605px;
+}
+.light h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+}
+.light p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    position: absolute;
+    top: 60px;
+}
+.regular h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 136px;
+}
+.regular p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    top: 188px;
+}
+.semibold h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 264px;
+}
+.semibold p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    position: absolute;
+    top: 316px;
+}
+.bold h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 392px;
+}
+.bold p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    position: absolute;
+    top: 444px;
+}
+.extrabold h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    top: 520px;
+}
+.extrabold p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    position: absolute;
+    top: 572px;
+}
+
+/* Секция с глифами */
+.glyphsblock {
+    width: 100%;
+    height: 1024px;
+    background-color: #BEBCFD;
+}
+.twit {
+    width: 1109px;
+    height: 894px;
+    background-image: url(../imagesproject/twit.svg);
+    margin: 62px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+}
+.name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-top: 102px;
+    padding-right: 76px;
+}
+.name p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    padding-top: 17px;
+}
+.read {
+    display: flex;
+    flex-direction: row;
+}
+.button3 {
+    top: 104px;
+    left: 0;
+    position: relative;
+    background-image: url(../imagesproject/button3.svg);
+    width: 189px;
+    height: 54px;
+}
+.button3 img {
+    position: absolute;
+    top: 16px;
+    left: 29px;
+}
+.button3 p {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    top: 16px;
+    left: 70px;
+}
+.twittext p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.postinf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.leftinf {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 24px;
+    margin-left: 37px;
+    padding-bottom: 15px;
+}
+.time {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    padding-right: 35px;
+}
+.date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 275px;
+}
+.icons div {
+    padding-right: 36px;
+    padding-top: 11px;
+}
+
+/* Секция с цирфами и инфой про глифы */
+.numbers {
+    width: 1440px;
+    height: 1024px;
+    background-color: #BEBCFD;
+    display: flex;
+    flex-direction: column;
+}
+.searchline2 {
+    background-image: url(../imagesproject/searchline2.svg);
+    margin: 5px 75px;
+    
+}
+.searchline2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    width: 943px;
+    height: 82px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.x, .Inv,.sin,.In,.p,.cos,.log,.e,.tan,.root,.Ans,.EXP {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+.rad,.deg {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.pr,.AC,.seven,.eight,.nine,.four,.five,.six,.one,.two,.three,.o,.dot,.equal,.summ,.minus,.division {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600 ;
+    text-align: center;
+}
+.button4 {
+    margin-right:71px ;
+}
+.middleinf {
+    display: flex;
+    justify-content:space-between;
+}
+.mrcursor2 {
+    width: 400px;
+}
+.calculator {
+    position: relative;
+    background-image: url(../imagesproject/calculator.svg);
+    top: 84px;
+    left: -75px;
+    width: 926px;
+    height: 647px;
+}
+.calculator p {
+    position: absolute;
+    top: 100px;
+    left: 455px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+}
+.calcbuttons {
+    display: flex;
+    flex-direction: column;
+    width: 817px;
+    position: absolute;
+    top: 235px;
+    left: 57px;
+}
+.row1 {
+    display: flex;
+    justify-content: space-around;
+}
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.row5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.rad,.deg,.x {
+    padding-top: 5px;
+}   
+.rad {
+    margin-left: 3px;
+}
+.deg {
+    margin-left: -15px;
+}
+.x {
+    margin-left: 21px;
+}
+.brck {
+    margin-left: 22px;
+}
+.brck2 {
+    margin-left: 30px;
+}
+.pr {
+    margin-left: 35px;
+} 
+.P {
+    margin-top: 7px;
+}   
+.log, .root {
+    margin-left: -18px;
+}
+.mult {
+    padding-top: 5px;
+}
+.EXP {
+    margin-left: 15px;
+}
+.dot {
+    margin-right: 30px;
+}
+.equal {
+    margin-right: 30px;
+}
+.mult img {
+    padding-left: 1px;
+    margin-right: 42px;
+}
+.Inv, .P {
+    margin-left: 40px;
+}
+.sin,  .In {
+    margin-left: -11px;
+}
+.seven, .nine {
+    margin-left: 10px;
+}
+.eight {
+    margin-left: 5px;
+}
+.division {
+    margin-right: 45px;
+}
+.tan {
+    margin-left: 24px;
+}
+.one {
+    margin-left: -9px;
+}
+.two {
+    margin-left: -13px;
+    margin-right: -7px;
+}
+.three {
+    margin-left: -15px;
+    margin-right: -11px;
+}
+.minus {
+    margin-right: 47px;
+}
+.o {
+    margin-left: 12px;
+}
+.equal {
+    margin-right: 8px;
+    margin-left: -16px;
+}
+.summ {
+    margin-right: 45px;
+}
+.calctext {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    position: absolute;
+    margin-left: 460px;
+    margin-top: -546px;
+}
+.bubblenumbers {
+    position: absolute;
+    margin-top: 610px;
+    margin-left: 157px;
+    background-image: url(../imagesproject/bubblenumbers.svg);
+    width: 427px;
+    height: 277px;
+}
+.bubblenumbers p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    width: 390px;
+    margin-top: 126px;
+    margin-left: 29px;
+}
+
+/* Секция с особенностями шрифта */
+.features {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.headline {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../imagesproject/headline.svg);
+    width: 850px;
+    height: 99px;
+    margin: 94px auto 20px;
+}
+.headline p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 78px;
+}
+.micro2 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.lens6 {
+    margin-top: 23px;
+    margin-left: 30px;
+}
+.searchoptions {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 840px;
+}
+.searchoptions div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+.pictures {
+    position: relative;
+    color: #6562EE ;
+}
+.pics {
+    display: flex;
+    justify-content: space-between;
+    width: 1298px;
+    margin: 102px auto 171px;
+}
+.f1 {
+    background-image: url(../imagesproject/f1.svg);
+    width: 396px;
+    height: 397px;
+}
+.f2 {
+    background-image: url(../imagesproject/f2.svg);
+    width: 399px;
+    height: 397px;
+}
+.f3 {
+    background-image: url(../imagesproject/f3.svg);
+    width: 433px;
+    height: 397px;
+}
+.f1 p,.f2 p,.f3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 300px
+}
+
+/* Секция с языками */
+.lang {
+    display: flex;
+    height: 1565px;
+}
+.windowblock3 {
+    background-image: url(../imagesproject/windowblock3.svg);
+    width: 687px;
+    height: 468px;
+    position: relative;
+    margin-top: 180px;
+    margin-left: 75px;
+}
+.maintext{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 130px;
+    position: absolute;
+    width: 546px;
+    margin-left: 69px;
+}
+.buttonok {
+    background-image: url(../imagesproject/buttonok.svg);
+    width: 271px;
+    height: 78px;;
+    position: absolute;
+    top: 305px;
+    left: 201px;
+}
+.buttonok p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px; 
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+.alph {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    background-image: url(../imagesproject/alph.svg);
+    width: 685px;
+    height: 780px;
+    margin-top: 65px;
+    margin-left: 75px;
+
+}
+.l1,.l2,.l3,.l4,.l5,.l5,.l6,.l7 {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 69px;
+}
+.langblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../imagesproject/langblock.svg);
+    width: 525px;
+    height: 1306px;
+    margin-top: 180px;
+    margin-left: 85px;
+}
+.langblock div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+/* Завершающий экран и подвал */
+.fact {
+    background-image: url(../imagesproject/finalscreen.svg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1340px;
+    display: flex;
+    flex-direction: column;
+}
+.middle {
+    display: flex;
+}
+.left {
+    position: relative;
+    top: 106px;
+    left: 167px;
+}
+.windows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../imagesproject/windows.svg);
+    width: 510px;
+    height: 604px;
+}
+.whitew {
+    position: relative;
+    top: 264px;
+    left: 71px;
+    background-image: url(../imagesproject/whitew.svg);
+    width: 402px;
+    height: 408px;
+    background-repeat: no-repeat;
+}
+.whitew p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    width: 336px;
+    position: absolute;
+    top: 110px;
+    left: 33px;
+}
+.whtfont {
+    position: absolute;
+    top: 465px;
+    left: 168px;
+    background-image: url(../imagesproject/whtfont.svg);
+    background-repeat: no-repeat;
+    width: 410px;
+    height: 319px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 54px;
+    padding-left: 33px;
+}
+.line1 {
+    display: flex;
+}
+.line1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+.line1 img {
+    margin-left: 150px;
+}
+.line2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.line2 p,
+.line3 p,
+.line4 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-top: 7px;
+}
+.infb {
+    font-weight: 700;
+}
+.line3 {
+    display: flex;
+    margin-top: 15px;
+}
+.line4 {
+    display: flex;
+    width: 350px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.lastweight{
+     margin-left: 40px;
+}
+.finalheight {
+    margin-left: 60px;
+}
+.color {
+    margin-left: 30px;
+}
+.colormark {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    margin-top: 23px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 205px;
+    margin-left: 356px;
+}
+.bubble3 {
+    background-image: url(../imagesproject/bubble3.svg);
+    width: 390px;
+    height: 283px;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 70px;
+}
+.mrcursor3 {
+    background-image: url(../imagesproject/mrcursor3.svg);
+    width: 327px;
+    height: 541px;
+    background-repeat: no-repeat;   
+    margin-top: -222px;
+    margin-left: 294px;
+}
+.windowfinal {
+    background-image: url(../imagesproject/windowfinal.svg);
+    width: 474px;
+    height: 220px;
+    background-repeat: no-repeat;   
+    margin-left: 153px;
+    padding-top: 87px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 75px;
+    padding-top: 10px;
+}
+.myname {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-right: 195px;
+}
+.crossfinal {
+    background-image: url(../imagesproject/finalcross.svg);
+    width: 65px;
+    height: 67px;
+    background-repeat: no-repeat;
+    margin-right: 80px;
+}

@@ -1,0 +1,9 @@
+<svg width="687" height="469" viewBox="0 0 687 469" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="9" width="674" height="460" fill="black"/>
+<rect x="15.5" y="1.5" width="670" height="455" fill="white" stroke="black" stroke-width="3"/>
+<rect x="15.5" y="1.5" width="670" height="51" fill="#C3C3C3" stroke="black" stroke-width="3"/>
+<line x1="616.738" y1="13.2035" x2="647.738" y2="43.2035" stroke="black" stroke-width="5"/>
+<line y1="-2.5" x2="43.1393" y2="-2.5" transform="matrix(-0.718602 0.695421 0.695421 0.718602 649 15)" stroke="black" stroke-width="5"/>
+<line y1="-2.5" x2="43.1393" y2="-2.5" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 513.139 42)" stroke="black" stroke-width="5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M578 14H559.2V16.2H570.8H575.8V21.2V32.8H578V14ZM554.2 14V16.2H552H547V21.2V40V45H552H570.8H575.8V40V37.8H578H583V32.8V14V9H578H559.2H554.2V14ZM571.3 20.7H551.5V40.5H571.3V20.7Z" fill="black"/>
+</svg>

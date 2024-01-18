@@ -204,7 +204,7 @@ body {
 
 /* Секция с начертаниями */
 .secondscreen {
-    width: 1440px;
+    width: 100%;
     height: 1024px;
     background-color: white;
     background-image: url(../imagesproject/weightback.svg);
@@ -619,6 +619,7 @@ div > .light,
 
 /* Секция с особенностями шрифта */
 .features {
+    width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -695,6 +696,7 @@ div > .light,
 .lang {
     display: flex;
     height: 1565px;
+    width: 100%;
 }
 .windowblock3 {
     background-image: url(../imagesproject/windowblock3.svg);
@@ -767,7 +769,7 @@ div > .light,
 .fact {
     background-image: url(../imagesproject/finalscreen.svg);
     background-repeat: no-repeat;
-    width: 1440px;
+    width: 100%;
     height: 1340px;
     display: flex;
     flex-direction: column;

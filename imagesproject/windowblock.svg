@@ -2,8 +2,9 @@
 <rect y="13" width="475" height="247" fill="black"/>
 <rect x="14.5" y="1.5" width="471" height="245" rx="1.5" fill="#ECECEC" stroke="black" stroke-width="3"/>
 <rect x="14.5" y="1.5" width="471" height="51" fill="#C3C3C3" stroke="black" stroke-width="3"/>
-<line x1="431.738" y1="13.2035" x2="462.738" y2="43.2035" stroke="black" stroke-width="5"/>
-<line y1="-2.5" x2="43.1393" y2="-2.5" transform="matrix(-0.718602 0.695421 0.695421 0.718602 464 15)" stroke="black" stroke-width="5"/>
-<line y1="-2.5" x2="43.1393" y2="-2.5" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 328.139 42)" stroke="black" stroke-width="5"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M393 14H374.2V16.2H385.8H390.8V21.2V32.8H393V14ZM369.2 14V16.2H367H362V21.2V40V45H367H385.8H390.8V40V37.8H393H398V32.8V14V9H393H374.2H369.2V14ZM386.3 20.7H366.5V40.5H386.3V20.7Z" fill="black"/>
+<line y1="-1.5" x2="34.9038" y2="-1.5" transform="matrix(-1 -8.76636e-08 -8.71826e-08 1 362.904 42)" stroke="black" stroke-width="3"/>
+<rect x="389.335" y="19.5" width="20.9341" height="21" stroke="black" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M396 16H413.755V33.8214H411.591V36.8214H413.755H416.755V33.8214V16V13H413.755H396H393V16V18.1787H396V16Z" fill="black"/>
+<line y1="-1.5" x2="33.8529" y2="-1.5" transform="matrix(0.706133 0.708079 -0.706133 0.708079 441.687 18)" stroke="black" stroke-width="3"/>
+<line y1="-1.5" x2="33.8529" y2="-1.5" transform="matrix(0.706133 -0.708079 0.706133 0.708079 443.096 41.9707)" stroke="black" stroke-width="3"/>
 </svg>

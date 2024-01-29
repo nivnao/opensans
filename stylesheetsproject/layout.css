@@ -1,8 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #BEBCFD;
+    background-color: white;
     width: 1440px;
+    margin: 0 auto;
 }
 /*Секция с первым экраном*/
 .firstscreen {
@@ -93,8 +94,9 @@ body {
 .introinf {
     width: 100%;
     height: 1024px;
-    background-color: white;
     position: relative;
+    background-image: url(../imagesproject/introinfback.svg);
+    margin-top: -40px;
 }
 .base {
     display: flex;
@@ -127,6 +129,7 @@ body {
     width: 991px;
     height: 644px;
     background-image: url(../imagesproject/windowblock2.svg);
+    background-repeat: no-repeat;
     margin-top: 67px;
     position: relative;
 }
@@ -328,30 +331,107 @@ div > .light,
     background-color: #BEBCFD;
 }
 .twit {
-    width: 1109px;
-    height: 894px;
-    background-image: url(../imagesproject/twit.svg);
-    margin: 62px auto;
+    width: 1440px;
+    height: 1056px;
+    background-image: url(../imagesproject/twitback.svg);
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.browserline {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    /* height: 92px; */
+}
+.leftline {
+    display: flex;
+    justify-content: space-between;
+    width: 740px;
+    height: 52px;
+    margin-top: 20px;
+    margin-left: 44px;
+}
+.arrows {
+    background-image: url(../imagesproject/arrows.svg);
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 35px;
+    margin-top: 18px;
+}
+.update {
+    background-image: url(../imagesproject/update.svg);
+    background-repeat: no-repeat;
+    width: 34px;
+    height: 32px;
+    margin-top: 18px;
+}
+.browserline3 {
+    background-image: url(../imagesproject/browserline3.svg);
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 52px;
+    display: flex;
+}
+.browserline3 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    margin-top: 12px;
+    margin-left: 29px;
+}
+.browserline3 img {
+    width: 29px;
+    height: 29px;   
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.rightline {
+    display: flex;
+    margin-top: 32px;
+    margin-right: 20px;
+}
+.option {
+    background-image: url(../imagesproject/options.svg);
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+}
+.settings {
+    background-image: url(../imagesproject/settings.svg);
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 37px;
+    margin-right: 14px;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.ava2 {
+    background-image: url(../imagesproject/ava2.svg);
+    background-repeat: no-repeat;
+    width: 59px;
+    height: 59px;
+    margin-right: 17px;
+    margin-top: -17px;
+    margin-left: 10px;
+}
 .head {
     display: flex;
     justify-content: space-around;
+    margin-top: 38px;
 }
 .name {
     font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 600;
     display: flex;
     flex-direction: column;
-    margin-top: 102px;
     padding-right: 76px;
+    margin-top: 98px;
 }
 .name p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-size: 23px;
     padding-top: 17px;
 }
 .read {
@@ -374,13 +454,13 @@ div > .light,
 .button3 p {
     position: absolute;
     font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-size: 23px;
     top: 16px;
     left: 70px;
 }
 .twittext p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 600;
     padding-bottom: 40px;
 }
@@ -419,14 +499,15 @@ div > .light,
 .numbers {
     width: 1440px;
     height: 1024px;
-    background-color: #BEBCFD;
+    background-image: url(../imagesproject/calcultorback.svg);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 .searchline2 {
     background-image: url(../imagesproject/searchline2.svg);
-    margin: 5px 75px;
-    
+    margin: 87px 75px;  
 }
 .searchline2 p {
     font-family: 'Open Sans', sans-serif;
@@ -463,11 +544,12 @@ div > .light,
 }
 .mrcursor2 {
     width: 400px;
+    margin-top: -100px;
 }
 .calculator {
     position: relative;
     background-image: url(../imagesproject/calculator.svg);
-    top: 84px;
+    top: -15px;
     left: -75px;
     width: 926px;
     height: 647px;
@@ -605,7 +687,7 @@ div > .light,
 }
 .bubblenumbers {
     position: absolute;
-    margin-top: 610px;
+    margin-top: 650px;
     margin-left: 157px;
     background-image: url(../imagesproject/bubblenumbers.svg);
     width: 427px;
@@ -623,9 +705,10 @@ div > .light,
 /* Секция с особенностями шрифта */
 .features {
     width: 100%;
-    background-color: white;
+    background-image: url(../imagesproject/featuresback.svg);
     display: flex;
     flex-direction: column;
+    margin-top: -40px;
 }
 .headline {
     display: flex;
@@ -698,6 +781,8 @@ div > .light,
 /* Секция с языками */
 .lang {
     display: flex;
+    background-image: url(../imagesproject/langback.svg);
+    background-repeat: no-repeat;
     height: 1565px;
     width: 100%;
 }
@@ -706,7 +791,7 @@ div > .light,
     width: 687px;
     height: 468px;
     position: relative;
-    margin-top: 180px;
+    margin-top: 100px;
     margin-left: 75px;
 }
 .maintext{
@@ -759,7 +844,7 @@ div > .light,
     background-image: url(../imagesproject/langblock.svg);
     width: 525px;
     height: 1306px;
-    margin-top: 180px;
+    margin-top: 100px;
     margin-left: 85px;
 }
 .langblock div {
@@ -772,8 +857,10 @@ div > .light,
 .fact {
     background-image: url(../imagesproject/finalscreen.svg);
     background-repeat: no-repeat;
+    margin-top: -100px;
+    margin-left: 0;
     width: 100%;
-    height: 1340px;
+    height: 1445px;
     display: flex;
     flex-direction: column;
 }
@@ -883,9 +970,10 @@ div > .light,
 }
 .bubble3 {
     background-image: url(../imagesproject/bubble3.svg);
-    width: 390px;
-    height: 283px;
     background-repeat: no-repeat;
+    width: 390px;
+    height: 285px;
+    margin-top: 40px;
 }
 .bubble3 p {
     width: 356px;
@@ -899,7 +987,7 @@ div > .light,
     width: 327px;
     height: 541px;
     background-repeat: no-repeat;   
-    margin-top: -222px;
+    margin-top: -120px;
     margin-left: 294px;
 }
 .windowfinal {
@@ -919,7 +1007,7 @@ div > .light,
 .bottom {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 75px;
     padding-top: 55px;
 }

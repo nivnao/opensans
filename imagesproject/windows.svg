@@ -5,20 +5,43 @@
 <rect x="105.5" y="22.5" width="385" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
 <rect x="-1.5" y="1.5" width="386" height="386" transform="matrix(-1 0 0 1 507 42)" fill="#D9D9D9" stroke="black" stroke-width="3"/>
 <rect x="123.5" y="43.5" width="385" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
+<rect x="426.509" y="59.5644" width="17.9219" height="17.9783" stroke="black" stroke-width="2.56834"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M432.215 56.5683H447.416V71.8255H445.563V74.3938H447.416H449.984V71.8255V56.5683V54H447.416H432.215H429.646V56.5683V58.4339H432.215V56.5683Z" fill="black"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 0.708079 -0.706133 0.708079 471.329 58.2803)" stroke="black" stroke-width="2.56834"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 -0.708079 0.706133 0.708079 472.535 78.8018)" stroke="black" stroke-width="2.56834"/>
 <rect x="-1.5" y="1.5" width="386" height="386" transform="matrix(-1 0 0 1 476 69)" fill="#D9D9D9" stroke="black" stroke-width="3"/>
 <rect x="92.5" y="70.5" width="385" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
-<rect x="-1.5" y="1.5" width="386" height="386" transform="matrix(-1 0 0 1 448 105)" fill="#D9D9D9" stroke="black" stroke-width="3"/>
-<rect x="64.5" y="106.5" width="385" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
+<rect x="-1.5" y="1.5" width="386" height="386" transform="matrix(-1 0 0 1 448 112)" fill="#D9D9D9" stroke="black" stroke-width="3"/>
+<rect x="64.5" y="113.5" width="385" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
+<line y1="-1.28417" x2="29.8816" y2="-1.28417" transform="matrix(-1 -8.76636e-08 -8.71826e-08 1 344.881 147.827)" stroke="black" stroke-width="2.56834"/>
+<rect x="367.509" y="131.564" width="17.9219" height="17.9783" stroke="black" stroke-width="2.56834"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M373.215 128.568H388.416V143.825H386.563V146.394H388.416H390.984V143.825V128.568V126H388.416H373.215H370.646V128.568V130.434H373.215V128.568Z" fill="black"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 0.708079 -0.706133 0.708079 412.329 130.28)" stroke="black" stroke-width="2.56834"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 -0.708079 0.706133 0.708079 413.535 150.802)" stroke="black" stroke-width="2.56834"/>
+<line y1="-1.28417" x2="29.8816" y2="-1.28417" transform="matrix(-1 -8.76636e-08 -8.71826e-08 1 372.881 102.827)" stroke="black" stroke-width="2.56834"/>
+<rect x="395.509" y="86.5644" width="17.9219" height="17.9783" stroke="black" stroke-width="2.56834"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M401.215 83.5683H416.416V98.8255H414.563V101.394H416.416H418.984V98.8255V83.5683V81H416.416H401.215H398.646V83.5683V85.4339H401.215V83.5683Z" fill="black"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 0.708079 -0.706133 0.708079 440.329 85.2803)" stroke="black" stroke-width="2.56834"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 -0.708079 0.706133 0.708079 441.535 105.802)" stroke="black" stroke-width="2.56834"/>
 <rect x="-1.5" y="1.5" width="386" height="386" transform="matrix(-1 0 0 1 420 142)" fill="#D9D9D9" stroke="black" stroke-width="3"/>
 <rect x="36.5" y="143.5" width="385" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
-<line x1="388.707" y1="158.293" x2="405.678" y2="175.263" stroke="black" stroke-width="2"/>
-<line x1="388.293" y1="175.264" x2="405.263" y2="158.293" stroke="black" stroke-width="2"/>
+<line y1="-1.28417" x2="29.8816" y2="-1.28417" transform="matrix(-1 -8.76636e-08 -8.71826e-08 1 316.882 179.827)" stroke="black" stroke-width="2.56834"/>
+<rect x="339.509" y="160.564" width="17.9219" height="17.9783" stroke="black" stroke-width="2.56834"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M345.215 157.568H360.416V172.825H358.563V175.394H360.416H362.984V172.825V157.568V155H360.416H345.215H342.646V157.568V159.434H345.215V157.568Z" fill="black"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 0.708079 -0.706133 0.708079 384.329 159.28)" stroke="black" stroke-width="2.56834"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 -0.708079 0.706133 0.708079 385.535 179.802)" stroke="black" stroke-width="2.56834"/>
 <rect x="-1.5" y="1.5" width="386" height="386" transform="matrix(-1 0 0 1 386 169)" fill="#D9D9D9" stroke="black" stroke-width="3"/>
 <rect x="2.5" y="170.5" width="385" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
-<line x1="354.707" y1="185.293" x2="371.678" y2="202.263" stroke="black" stroke-width="2"/>
-<line x1="354.293" y1="202.264" x2="371.263" y2="185.293" stroke="black" stroke-width="2"/>
 <rect x="-1.5" y="1.5" width="386" height="386" transform="matrix(-1 0 0 1 429 215)" fill="#D9D9D9" stroke="black" stroke-width="3"/>
 <rect x="45.5" y="216.5" width="385" height="51" fill="#A2A0A0" stroke="black" stroke-width="3"/>
-<line x1="397.707" y1="231.293" x2="414.678" y2="248.263" stroke="black" stroke-width="2"/>
-<line x1="397.293" y1="248.264" x2="414.263" y2="231.293" stroke="black" stroke-width="2"/>
+<line y1="-1.28417" x2="29.8816" y2="-1.28417" transform="matrix(-1 -8.76636e-08 -8.71826e-08 1 325.882 251.827)" stroke="black" stroke-width="2.56834"/>
+<rect x="348.509" y="232.564" width="17.9219" height="17.9783" stroke="black" stroke-width="2.56834"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M354.215 229.568H369.416V244.825H367.563V247.394H369.416H371.984V244.825V229.568V227H369.416H354.215H351.646V229.568V231.434H354.215V229.568Z" fill="black"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 0.708079 -0.706133 0.708079 393.329 231.28)" stroke="black" stroke-width="2.56834"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 -0.708079 0.706133 0.708079 394.535 251.802)" stroke="black" stroke-width="2.56834"/>
+<line y1="-1.28417" x2="29.8816" y2="-1.28417" transform="matrix(-1 -8.76636e-08 -8.71826e-08 1 282.882 206.827)" stroke="black" stroke-width="2.56834"/>
+<rect x="305.509" y="187.564" width="17.9219" height="17.9783" stroke="black" stroke-width="2.56834"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M311.215 184.568H326.416V199.825H324.563V202.394H326.416H328.984V199.825V184.568V182H326.416H311.215H308.646V184.568V186.434H311.215V184.568Z" fill="black"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 0.708079 -0.706133 0.708079 350.329 186.28)" stroke="black" stroke-width="2.56834"/>
+<line y1="-1.28417" x2="28.9818" y2="-1.28417" transform="matrix(0.706133 -0.708079 0.706133 0.708079 351.535 206.802)" stroke="black" stroke-width="2.56834"/>
 </svg>

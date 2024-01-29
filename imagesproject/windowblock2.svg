@@ -1,9 +1,10 @@
-<svg width="991" height="644" viewBox="0 0 991 644" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="11" y="10" width="980" height="634" fill="black"/>
+<svg width="985" height="638" viewBox="0 0 985 638" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="5" y="4" width="980" height="634" fill="black"/>
 <rect x="1.5" y="1.5" width="977" height="631" fill="#ECECEC" stroke="black" stroke-width="3"/>
 <rect x="1.5" y="1.5" width="977" height="51" fill="#C3C3C3" stroke="black" stroke-width="3"/>
-<line x1="910.739" y1="14.2035" x2="941.739" y2="44.2035" stroke="black" stroke-width="5"/>
-<line y1="-2.5" x2="43.1393" y2="-2.5" transform="matrix(-0.718602 0.695421 0.695421 0.718602 943 16)" stroke="black" stroke-width="5"/>
-<line y1="-2.5" x2="43.1393" y2="-2.5" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 807.14 43)" stroke="black" stroke-width="5"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M872 15H853.2V17.2H864.8H869.8V22.2V33.8H872V15ZM848.2 15V17.2H846H841V22.2V41V46H846H864.8H869.8V41V38.8H872H877V33.8V15V10H872H853.2H848.2V15ZM865.3 21.7H845.5V41.5H865.3V21.7Z" fill="black"/>
+<line y1="-1.5" x2="37.1637" y2="-1.5" transform="matrix(-1 -8.8011e-08 -8.68385e-08 1 844.164 42)" stroke="black" stroke-width="3"/>
+<rect x="872.209" y="17.8447" width="22.4837" height="22.6552" stroke="black" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M879.208 14H898.502V33.4643H896.003V36.4643H898.502H901.502V33.4643V14V11H898.502H879.208H876.208V14V16.5356H879.208V14Z" fill="black"/>
+<line y1="-1.5" x2="36.1164" y2="-1.5" transform="matrix(0.704732 0.709474 -0.704732 0.709474 928.048 16.3447)" stroke="black" stroke-width="3"/>
+<line y1="-1.5" x2="36.1164" y2="-1.5" transform="matrix(0.704732 -0.709474 0.704732 0.709474 929.547 41.9688)" stroke="black" stroke-width="3"/>
 </svg>
